@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const keys = require('./config/keys');
-require('./services/passport');
+require('./services/passport');             //These are files. ./ File tree
 require('./models/user');
 
 
